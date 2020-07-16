@@ -1,0 +1,94 @@
+.hidden{
+  display: none;
+}
+ body {
+   background-color: rgb(83, 78, 78);
+ }
+
+ #game {
+   background-color: rgb(240, 240, 132);
+   max-width: 1000px;
+   margin: 20px auto;
+
+   padding: 20px;
+ }
+
+ #gameControl {
+   background-color: blueviolet;
+   padding: 10px;
+
+   color: azure;
+   font-size: 24px;
+ }
+
+ .gameCaption-name {
+   font-weight: bold;
+ }
+
+ .gameCaption-status {
+   background-color: burlywood;
+   color: black;
+   padding: 5px;
+   border: 3px solod red;
+   border-radius: 8px;
+}
+
+.game-timer-ok {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+}
+
+#team1 {
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: cornflowerblue;
+}
+
+#team1Caption,
+#team2Caption { 
+ padding: 3px;
+ display: block;
+ font-weight: bold;
+ border-radius: 3px;
+}
+
+.teamLives, 
+.teamCoins {
+  display: flex;
+  justify-content: space-between;
+}
+
+#team1Stats,
+#team2Stats {
+  margin: 10px 0;
+}
+
+#team1Users,
+#team2Users {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+
+#team2 {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 3px;
+  background-color:lightsalmon;
+}
+
+#team1Caption {
+  background-color: dodgerblue;
+}
+
+#team2Caption {
+  background-color: rgb(172, 46, 46);
+}
+
+.game-btn {
+  margin-bottom: 10px;
+}
+
